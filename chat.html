@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 聊天室</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>💬 偶像 AI 聊天室</h2>
+
+    <select id="personality">
+      <option value="genki">🅰 大便偶像</option>
+      <option value="onepiece">🅱 熱血航海王</option>
+      <option value="bluearchive">🅲 蔚藍檔案</option>
+    </select>
+
+    <div id="chat-box"></div>
+
+    <div class="input-area">
+      <input id="user-input" type="text" placeholder="輸入訊息…" />
+      <button onclick="sendMessage()">送出</button>
+    </div>
+
+    <br>
+    <a href="index.html">⬅ 回首頁</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
